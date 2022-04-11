@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Olivia's Kitchen - Restaurant</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel ="stylesheet" href="addToCart.css">
+  <script type="text/javascript" src="addToCart.js"></script>
+  <script defer src="js/scripts.js"></script>
+  <script src="store.js" async></script>
+</head>
+<body>
+
+  <!--header start-->
+
+<header class="header">
+<div class="container">
+ <div class="row justify-content-between align-items-center">
+  <div class="logo">
+    <a href="#"><img src="img/olivias.jpg" alt="logo"></a>
+    </div>
+    <button type="button" class="nav-toggler">
+      <span></span>
+    </button>
+    <nav class="nav">
+      <ul>
+        <li class="nav-item"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#about">About Us</a></li>
+        <li class="nav-item"><a href="#our-menu">Our Menu</a></li>
+        <li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a href="#team">Our Suppliers</a></li>
+        <li class="nav-item"><a href="#footer">Contact Us</a></li>
+        <li class="nav-item"><a href="#main_bg">Booking</a></li>
+        <li class="nav-item"><a href="#signup">Sign-up</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</header>
+
+<!--header end-->
+
+<!--Home section starting--->
+
+<section class="home-section" id="home">
+  <div class="home-bg"></div>
+  <div class="container">
+  <div class="row min-vh-100 align-items-center">
+    <div class="home-text" data-aos="fade-up" data-aos-duration="1000">
+      <h1>Olivia's Kitchen</h1>
+      <p>New Zealand's First Asian Takeaways made exclusively with NZ FRESH FREE RANGE CHICKEN, EGGS and PORK</p>
+      <a href="#our-menu" class="btn btn-default">Our Menu</a>
+    </div>
+   </div>
+  </div>
+</section>
+
+<!--Home section finished-->
+
+<!--about section start-->
+<section class="about-section sec-padding" id="about">
+ <div class="container">
+   <div class="row">
+     <div class="section-title">
+       <h2 data-title="our story" data-aos="fade-up">About Us</h2>
+     </div>
+   </div>
+   <div class="row">
+     <div class="about-text" data-aos="fade-right">
+        <h3>Welcome To Olivia's Kitchen Restaurant</h3>
+        <p>Olivia's Kitchen is situated in Auckland's Albany, North Shore, on the busy Oteha Valley Road. Here at Olivia's we are dedicated to bringing you the freshest and tastiest deep fried appetisers,burgers and classic Chinese Takeaways as well as popular South East Asian stir-fried dishes.</p>
+        <p>We are devoted to animal welfare and sustainable farming, and proud to announce we are the first Asian Takeaway to go full free range for all our meats and eggs.</p>
+        <p>Our belief is that there should be accountability and traceability in everything we eat, that's why we only use locally sourced certified free range farmed pork, poultry and eggs so you can be sure to enjoy our food with a peace of mind.</p>
+        <a href="#our-menu" class="btn btn-default">Check our menu</a>
+      </div>
+     <div class="about-img" data-aos="fade-left">
+       <div class="img-box">
+         <h3>Our Story Begins With A Peace Of Mind</h3>
+         <img src="img/about-img.jpg" alt="about img">
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!--about section end-->
+
+<!--menu section start-->
+<section class="menu-section sec-padding" id="our-menu">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2 data-title="order now" data-aos="fade-up">Our Menu</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="menu-tabs" data-aos="fade-up">
+        <button type="button" class="menu-tab-item active" data-target="#lunch">Lunch</button>
+        <button type="button" class="menu-tab-item" data-target="#dinner">Dinner</button>
+        <button type="button" class="menu-tab-item" data-target="#drinks">Drinks</button>
+        <button type="button" class="menu-tab-item" data-target="#noodles">Noodles</button>
+        <button type="button" class="menu-tab-item" data-target="#burgers">Burgers</button>
+      </div>
+    </div>
+    <div class="cart" id="cart">
+      <div class="title">Your Items</div>
+      <img src="img/fried-rice.PNG" alt="menu item thumbnail">
+      <h3>$14.50</h3>
+      <img src="img/fried-rice.PNG" alt="menu item thumbnail">
+          <h3>$15.00</h3>
+          <p>Total = $29.50</p>
+    </div>
+    <button id="cart-items">VIEW CART</button>
+    <div class="row menu-tab-content active" id="lunch">
+      <div class="menu-item" data-aos="fade-up-right">
+        <div class="menu-item-title">
+          <img src="img/fried-rice.PNG" alt="menu item thumbnail">
+          <h3>Vege Fried Rice with Market Fresh Vegetables</h3>
+        </div>
+        <div class="menu-item-price">
+          $14.50
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-left">
+        <div class="menu-item-title">
+          <img src="img/chicken.PNG" alt="menu item thumbnail">
+          <h3>Sunfed Chicken Free Chicken Made from pea protein(100gm)</h3>
+        </div>
+        <div class="menu-item-price">
+          $18.50
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-right">
+        <div class="menu-item-title">
+          <img src="img/special fried rice.PNG" alt="menu item thumbnail">
+          <h3>Combination Meats (Chicken Breast, BBQ Pork, Steak and Cashew nuts) with added Prawns</h3>
+        </div>
+        <div class="menu-item-price">
+          $15.00
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-left">
+        <div class="menu-item-title">
+          <img src="img/sweet sour.PNG" alt="menu item thumbnail">
+          <h3>Sweet and Sour Pork or Chicken</h3>
+        </div>
+        <div class="menu-item-price">
+          $18.00
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-right">
+        <div class="menu-item-title">
+          <img src="img/black bean.PNG" alt="menu item thumbnail">
+          <h3>Black Bean Sauce Market Fresh Veges Wok-tossed in Black Bean Sauce on White Rice</h3>
+        </div>
+        <div class="menu-item-price">
+          $18.50
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-left">
+        <div class="menu-item-title">
+          <img src="img/oyster.PNG" alt="menu item thumbnail">
+          <h3>Oyster Sauce Market Fresh Veges Wok-tossed in Oyster flavoured Sauce on White Rice</h3>
+        </div>
+        <div class="menu-item-price">
+          $17.00
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-right">
+        <div class="menu-item-title">
+          <img src="img/popular.PNG" alt="menu item thumbnail">
+          <h3>Chicken & Cashew Popular Classic</h3>
+        </div>
+        <div class="menu-item-price">
+          $16.50
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-left">
+        <div class="menu-item-title">
+          <img src="img/green curry.PNG" alt="menu item thumbnail">
+          <h3>Green Curry Chicken Green Curry with Coconut Cream with a side of White Rice</h3>
+        </div>
+        <div class="menu-item-price">
+          $17.00
+          <button>Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="row menu-tab-content" id="dinner">
+      <div class="menu-item" data-aos="fade-up-right">
+        <div class="menu-item-title">
+          <img src="img/nasi.PNG" alt="menu item thumbnail">
+          <h3>Nasi Goreng with Rice</h3>
+        </div>
+        <div class="menu-item-price">
+          $18.00
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-left">
+        <div class="menu-item-title">
+          <img src="img/tofu.PNG" alt="menu item thumbnail">
+          <h3>Vegetarian/Vegan <br>Tofu Delight on Rice</h3>
+        </div>
+        <div class="menu-item-price">
+          $15.00
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-right">
+        <div class="menu-item-title">
+          <img src="img/vegan sunfed.PNG" alt="menu item thumbnail">
+          <h3>Vegetarian/Vegan <br> Vegan Sunfed Chicken & Pineapple with Vege on Rice</h3>
+        </div>
+        <div class="menu-item-price">
+          $18.50
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-left">
+        <div class="menu-item-title">
+          <img src="img/gami.PNG" alt="menu item thumbnail">
+          <h3>Vege Bami Goreng with Noodles</h3>
+        </div>
+        <div class="menu-item-price">
+          $15.00
+          <button>Add To Cart</button>
+        </div>
+      </div>
+    </div>
+      <div class="row menu-tab-content" id="drinks">
+      <div class="menu-item" data-aos="fade-up-right">
+        <div class="menu-item-title">
+          <img src="img/drinks.PNG" alt="menu item thumbnail">
+          <h3>Soft Drinks 330ml Glass bottle<br>coke, coke no sugar, fanta, sprite and L & P.</h3>
+        </div>
+        <div class="menu-item-price">
+          $3.00
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="menu-item" data-aos="fade-up-left">
+      <div class="menu-item-title">
+        <img src="img/water.PNG" alt="menu item thumbnail">
+        <h3>Water and Juices<br> Pump water400ml, Most organic juice(Apple & orange, apple & feijoa, Apple & Blackcurrent)</h3>
+      </div>
+      <div class="menu-item-price">
+        $3.00
+        <button>Add To Cart</button>
+      </div>
+    </div>
+  </div>
+    <div class="row menu-tab-content" id="noodles">
+    <div class="menu-item" data-aos="fade-up-right">
+      <div class="menu-item-title">
+        <img src="img/noodles1.PNG" alt="menu item thumbnail">
+        <h3>Vermicelli Noodles BBQ Pork and Prawns tossed with Onions, Carrot & Bean Sprouts with Yellow Curry Powder</h3>
+      </div>
+      <div class="menu-item-price">
+        $16.00
+        <button">Add To Cart</button>
+      </div>
+    </div>
+    <div class="menu-item" data-aos="fade-up-left">
+    <div class="menu-item-title">
+      <img src="img/noodles2.PNG" alt="menu item thumbnail">
+      <h3>Stir Fried Rice Noodles with Steak</h3>
+    </div>
+    <div class="menu-item-price">
+      $12.00
+      <button>Add To Cart</button>
+    </div>
+  </div>
+</div>
+<div class="row menu-tab-content" id="burgers">
+  <div class="menu-item" data-aos="fade-up-right">
+    <div class="menu-item-title">
+      <img src="img/vegbg.PNG" alt="menu item thumbnail">
+      <h3>Vegetarian Burger Homemade Lentil Pattie</h3>
+    </div>
+    <div class="menu-item-price">
+      $10.00
+      <button>Add To Cart</button>
+    </div>
+  </div>
+  <div class="menu-item" data-aos="fade-up-left">
+    <div class="menu-item-title">
+      <img src="img/burger.PNG" alt="menu item thumbnail">
+      <h3>Steak Burger Angus Steak Strips
+        </h3>
+    </div>
+    <div class="menu-item-price">
+      $12.00
+      <button>Add To Cart</button>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--menu section end-->
+
+<!--responsive behaviour start-->
+<section class="testimonials-section sec-padding" id="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2 data-title="testimonials" data-aos="fade-up">Some Feedbacks</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="testi-item" data-aos="zoom-in">
+        <div class="testi-author">
+          <div class="testi-author-name">
+            <h3>Vanessa</h3>
+            <span>Customer</span>
+          </div>
+          <div class="test-author img">
+            <img src="img/testimonials/1.jpg" alt="test author img">
+          </div>
+        </div>
+        <p>Was such delicious food and you could taste everything was made by hand and with love! Absolutely delicious thank you!
+        </p>
+        <div class="ratings">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="testi-item" data-aos="zoom-in">
+        <div class="testi-author">
+          <div class="testi-author-name">
+            <h3>Francesca</h3>
+            <span>customer</span>
+          </div>
+          <div class="test-author img">
+            <img src="img/testimonials/2.jpg" alt="test author img">
+          </div>
+        </div>
+        <p>Perfect as per usual. Love the chow mein, crispy chill beef, noodles and my favourite is the burger, yummy!</p>
+        <div class="ratings">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="testi-item" data-aos="zoom-in">
+        <div class="testi-author">
+          <div class="testi-author-name">
+            <h3>Jack</h3>
+            <span>Customer</span>
+          </div>
+          <div class="test-author img">
+            <img src="img/testimonials/3.jpg" alt="test author img">
+          </div>
+        </div>
+        <p>Generous potion love the Indonesian noodle, the tasty is great.</p>
+        <div class="ratings">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--responsive behaviour start-->
+
+<!--team section start-->
+
+<div class="section team-section sec-padding" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2 data-title ="team"> our Suppliers</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+        <div class="team-item-info">
+          <h3>Pork & Bacon</h3>
+          <p>Certified free range pork and bacon proudly supplied by Freedom Farms. The pork is farmed right here in New Zealand with 
+            approval from the Royal New Zealand SPCA Blue Tick Standard, guaranteed fresh and 100% hormone free.</p>
+            <img src="img/pork bacon.PNG" alt="team item">
+        </div>
+      </div>
+      <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+        <div class="team-item-info">
+          <h3>Chicken</h3>
+          <p>We use Tegal NZ's new line of free range poultry 'Good Life' fresh whole chickens and chicken breasts distributed through The Fresh Chicken Company. 
+            The chicken is guaranteed to meet Halal compliance and farming practices are approved by the Royal New Zealand SPCA Blue Tick Standard.</p>
+        <img src="img/chicken s.PNG" alt="team item">
+          </div>
+      </div>
+      <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+        <div class="team-item-info">
+          <h3>Eggs</h3>
+          <p>Our free range eggs are freshly delivered to us directly from the local 
+            certified free range small cottage type EcoEgg farm.</p>
+        <img src="img/eggs.PNG" alt="team item">
+        </div>
+      </div>
+      <div class="team-item" data-aos="flip-left" data-aos-duration="1000">
+        <div class="team-item-info">
+          <h3>Beef</h3>
+          <p>We use 100% New Zealand Genuine Angus lean beef from one of NZ's biggest
+             meat processors, Affco NZ, delivered to us fresh by JR Wholesale.</p>
+        <img src="img/beef.PNG" alt="team item">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--team section finish-->
+
+<!--footer start-->
+<div class="footer" id="footer">
+   <div class="container">
+     <div class="row">
+       <div class="footer-item" data-aos="fade-up">
+         <h3>our Location</h3>
+         <p>52e Oteha Valley Road <br>Albany, Auckland</p>
+       </div>
+       <div class="footer-item" data-aos="fade-up">
+       <h3>Opening Hours</h3>
+       <p>Sunday -Wednesday: 4pm - 9pm <br>Thursday - Saturday 4pm - 9.30pm <br>Public Holidays 4pm - 9pm</p>
+       </div>
+       <div class="footer-item" data-aos="fade-up">
+       <h3>Contact</h3>
+       <p>Phone <br> 09-476 7086</p>
+       <div class="social-links">
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-youtube"></i></a>
+       </div>
+     </div>
+   </div>
+   </div>
+</div>
+<!--footer finish-->
+
+<!--booking starts-->
+<div class="main_bg" id="main_bg">
+  <div class="form">
+    <div class="form-text">
+      <h1><span><img src="img/art-1.png" alt=""></span>Book Now <span><img src="img/art-1.png" alt=""></span></h1>
+      <p>Fill up the information below and submit your booking</p>
+      </div>
+  <div class="main-form">
+    <form action="index.html" method="get">
+      <div>
+        <span>Your full name?</span>
+        <input type="text" name="name" id="name" placeholder="write your full name here" required>
+      </div>
+      <div>
+        <span>Your email address</span>
+        <input type="text" name="name" id="name" placeholder="write your email here..." required>
+      </div>
+      <div>
+        <!--this is the selecting option-->
+        <span>How many people?</span> 
+        <select name="people" id="people" required>
+          <option value=""><--People--></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <!--this is the selecting option-->
+      <div>
+        <span>What time?</span>
+        <input type="text" name="time" id="time" placeholder="time" required>
+      </div>
+      <div>
+        <span>What is the date?</span>
+        <input type="date" name="date" id="date" placeholder="date" required>
+      </div>
+      <div>
+        <span>Your phone number</span>
+        <input type="number" name="number" id="number" placeholder="Write your number here..." required>
+      </div>
+      <div>
+        <div id="submit">
+          <input type="submit" value="SUBMIT" id="submit">
+        </div>
+
+      </div>
+    </form>
+  </div>
+</div>
+
+  </div>
+<!--booking finish-->
+
+
+<!-----Sign Up start------->
+  <div class="signup" id="signup">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-title="Create An Account" data-aos="fade-up">SIGN_UP</h2>
+        </div>
+<form action="">
+  <label for="Name">
+    <span>Name</span>
+    <input type="text" id="name" name="name">
+  </label>
+
+  <label for="email">
+    <span>E-mail</span>
+    <input type="email" id="email" name="email">
+  </label>
+
+  <label for="password">
+    <span>Password</span>
+    <input type="password" id="password" name="password">
+  </label>
+  <input type="submit" value="Sign-up">
+  <div class="copyright">
+    &copy; 2022 - designed by Ubiranilson S D Oliveira
+  </div>
+   </div>
+  </div>
+ </div>
+</form>
+<!-----Sign Up start------->
+
+<script src="js/aos.js"></script> 
+<script src="js/script.js"></script>
+</body>
+</html>
+
